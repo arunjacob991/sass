@@ -1,0 +1,12 @@
+@use './index';
+
+body {
+    background-color: antiquewhite;
+    color: black;
+}
+button {
+    background-color: index.$clr;
+    &:hover {
+        background-color: index.$bclr;
+    }
+}

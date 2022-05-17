@@ -1,0 +1,9 @@
+@use './index' as *;
+@use './mixin' as *;
+
+.center {
+    background-color: $bclr;
+    width: 50vw;
+    height: 100px;
+    @include flexCenter(column);
+}
