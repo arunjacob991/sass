@@ -5,8 +5,7 @@ function App() {
 
     return (
         <div className="App">
-            {' '}
-            <div className="yoyo"></div>
+            <div className="yoyo">lsnfdknflssdf</div>
         </div>
     );
 }
