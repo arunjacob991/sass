@@ -5,7 +5,12 @@ function App() {
 
     return (
         <div className="App">
-            <div className="yoyo">lsnfdknflssdfksjdf</div>
+            <div
+                className="yoyo"
+                id="yoyo"
+            >
+                lsnfdknflssdfksjdf
+            </div>
         </div>
     );
 }
