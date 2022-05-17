@@ -1,17 +1,11 @@
-import react, { useState } from 'react';
-import './App.css';
+import react from 'react';
+import './App.scss';
 
 function App() {
-    const [first, setfirst] = useState(second);
-
     return (
         <div className="App">
-            <div
-                className="yoyo"
-                id="yoyo"
-            >
-                lsnfdknflssdfksjdf
-            </div>
+            <div className="yoyo">sass ....</div>
+            <button>yoyo</button>
         </div>
     );
 }

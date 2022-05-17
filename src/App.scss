@@ -1,0 +1,10 @@
+body {
+    background-color: antiquewhite;
+    color: black;
+}
+button {
+    background-color: blue;
+    &:hover {
+        background-color: yellow;
+    }
+}
