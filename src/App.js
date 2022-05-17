@@ -1,4 +1,5 @@
 import react, { useState } from 'react';
+import './App.css';
 
 function App() {
     const [first, setfirst] = useState(second);
