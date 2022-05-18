@@ -1,5 +1,6 @@
 @use './index' as *;
 @use './mixin' as *;
+@use './body';
 
 .center {
     background-color: $bclr;
